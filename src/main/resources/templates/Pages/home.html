@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Page d'accueil</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}"/>
+</head>
+<body>
+
+    <div class="banner">
+<!--        <h1 th:text=" 'Hello ' + ${#strings.capitalize(name)} + '!' "></h1>-->
+        <div class="navbar">
+            <img th:src="@{/Images/logo.png}" th:class="logo">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Rate</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="content">
+            <h1>GÉRER LES RÉSERVATIONS</h1>
+            <p>Analyser les réservations de vos clients<br>n'aura jamais été aussi facile</p>
+            <div>
+                <button type="button"><span></span>EN SAVOIR PLUS</button>
+                <button type="button"><span></span>COMMENCER</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
