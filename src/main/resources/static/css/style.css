@@ -1,28 +1,3 @@
-/*.container{*/
-/*    position: relative;*/
-/*    width: 500px;*/
-/*    height: 500px;*/
-/*}*/
-
-/*.cercle{*/
-/*    width: 100%;*/
-/*    height: 100%;*/
-/*    border-radius: 50%;*/
-/*    position: absolute;*/
-/*}*/
-
-/*.cercle.rouge{*/
-/*    background-color: red;*/
-/*    top: 0;*/
-/*    left: 0;*/
-/*}*/
-
-/*.cercle.violet{*/
-/*    background-color: rebeccapurple;*/
-/*    top: 0;*/
-/*    right: 0;*/
-/*}*/
-
 *{
     margin: 0;
     padding: 0;
